@@ -1,12 +1,12 @@
-body { overflow-x: hidden; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: #fafafa; background-color: #111111; }
+body { overflow-x: hidden; font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: #878787; background-color: #111111; }
 
 p { line-height: 1.75; }
 
-a { color: #E06134; }
+a { color: #FFCC00; }
 
-a:hover { color: #c3491e; }
+a:hover { color: #cca300; }
 
-.text-primary { color: #E06134 !important; }
+.text-primary { color: #FFCC00 !important; }
 
 .text-muted { color: #e9ecef !important; }
 
@@ -20,9 +20,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; font-family: "Kanit", -apple-system, 
 
 @media (min-width: 768px) { section { padding: 150px 0; } }
 
-::-moz-selection { background: #E06134; text-shadow: none; }
+::-moz-selection { background: #FFCC00; text-shadow: none; }
 
-::selection { background: #E06134; text-shadow: none; }
+::selection { background: #FFCC00; text-shadow: none; }
 
 img::selection { background: transparent; }
 
@@ -32,23 +32,23 @@ img::-moz-selection { background: transparent; }
 
 .btn-xl { font-size: 18px; padding: 20px 40px; }
 
-.btn-primary { background-color: #E06134; border-color: #E06134; }
+.btn-primary { background-color: #FFCC00; border-color: #FFCC00; }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #ce4d1f !important; border-color: #ce4d1f !important; color: white; }
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #d9ad00 !important; border-color: #d9ad00 !important; color: white; }
 
 .btn-primary:active, .btn-primary:focus { box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
 #mainNav { background-color: #4b4b56; }
 
-#mainNav .navbar-toggler { font-size: 12px; right: 0; padding: 13px; text-transform: uppercase; color: white; border: 0; background-color: #E06134; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+#mainNav .navbar-toggler { font-size: 12px; right: 0; padding: 13px; text-transform: uppercase; color: white; border: 0; background-color: #FFCC00; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-#mainNav .navbar-brand { color: #E06134; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+#mainNav .navbar-brand { color: #FFCC00; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { color: #c3491e; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { color: #cca300; }
 
 #mainNav .navbar-nav .nav-item .nav-link { font-size: 90%; font-weight: 400; padding: 0.75em 0; letter-spacing: 1px; color: white; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover { color: #E06134; }
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover { color: #FFCC00; }
 
 @media (min-width: 992px) { #mainNav { padding-top: 25px; padding-bottom: 25px; -webkit-transition: padding-top 0.3s, padding-bottom 0.3s; -moz-transition: padding-top 0.3s, padding-bottom 0.3s; transition: padding-top 0.3s, padding-bottom 0.3s; border: none; background-color: transparent; } #mainNav .navbar-brand { font-size: 1.75em; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; } #mainNav .navbar-nav .nav-item .nav-link { padding: 1.1em 1em !important; } #mainNav.navbar-shrink { padding-top: 0; padding-bottom: 0; background-color: #111111; } #mainNav.navbar-shrink .navbar-brand { font-size: 1.25em; padding: 12px 0; } }
 
@@ -66,6 +66,8 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 
 @media (min-width: 768px) { header.masthead .intro-text { padding-top: 300px; padding-bottom: 200px; } header.masthead .intro-text .intro-lead-in { font-size: 40px; font-style: italic; line-height: 40px; margin-bottom: 25px; font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; } header.masthead .intro-text .intro-heading { font-size: 75px; font-weight: 700; line-height: 75px; margin-bottom: 50px; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; } }
 
+#services { background-color: #202020 !important; }
+
 .service-heading { margin: 15px 0; text-transform: none; }
 
 #portfolio { background-color: #171717 !important; }
@@ -74,7 +76,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 
 #portfolio .portfolio-item .portfolio-link { position: relative; display: block; max-width: 400px; margin: 0 auto; cursor: pointer; }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover { position: absolute; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(224, 97, 52, 0.9); }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover { position: absolute; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(255, 204, 0, 0.9); }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover { opacity: 1; }
 
@@ -134,7 +136,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 
 .timeline > li .timeline-panel:after { right: auto; left: -14px; border-right-width: 14px; border-left-width: 0; }
 
-.timeline > li .timeline-image { position: absolute; z-index: 100; left: 0; width: 80px; height: 80px; margin-left: 0; text-align: center; color: #fff; border: 7px solid #e9ecef; border-radius: 100%; background-color: #E06134; }
+.timeline > li .timeline-image { position: absolute; z-index: 100; left: 0; width: 80px; height: 80px; margin-left: 0; text-align: center; color: #fff; border: 7px solid #e9ecef; border-radius: 100%; background-color: #FFCC00; }
 
 .timeline > li .timeline-image h4 { font-size: 10px; line-height: 14px; margin-top: 12px; }
 
@@ -178,7 +180,7 @@ section#contact .form-group input.form-control { height: auto; }
 
 section#contact .form-group textarea.form-control { height: 248px; }
 
-section#contact .form-control:focus { border-color: #E06134; box-shadow: none; }
+section#contact .form-control:focus { border-color: #FFCC00; box-shadow: none; }
 
 section#contact ::-webkit-input-placeholder { font-weight: 700; color: #ced4da; font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
@@ -198,6 +200,6 @@ ul.social-buttons { margin-bottom: 0; }
 
 ul.social-buttons li a { font-size: 20px; line-height: 50px; display: block; width: 50px; height: 50px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; color: white; border-radius: 100%; outline: none; background-color: #4b4b56; }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover { background-color: #E06134; }
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover { background-color: #FFCC00; }
 
 /*# sourceMappingURL=agency.css.map */
