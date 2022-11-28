@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://blackrockrecordings.com/https://blackrockrecordings.com/</loc>
+<loc>https://blackrockrecordings.com/</loc>
 </url>
 <url>
-<loc>https://blackrockrecordings.com/https://blackrockrecordings.com/legal.html</loc>
+<loc>https://blackrockrecordings.com/legal.html</loc>
+</url>
+<url>
+<loc>https://blackrockrecordings.com/assets/js/plyr/.github/ISSUE_TEMPLATE/bug.html</loc>
+</url>
+<url>
+<loc>https://blackrockrecordings.com/assets/js/plyr/.github/ISSUE_TEMPLATE/feature.html</loc>
+</url>
+<url>
+<loc>https://blackrockrecordings.com/assets/js/plyr/.github/ISSUE_TEMPLATE/improvement.html</loc>
+</url>
+<url>
+<loc>https://blackrockrecordings.com/assets/js/plyr/demo/error.html</loc>
+<lastmod>2022-11-28T09:56:08+01:00</lastmod>
+</url>
+<url>
+<loc>https://blackrockrecordings.com/assets/js/plyr/demo/</loc>
+<lastmod>2022-11-28T09:56:08+01:00</lastmod>
 </url>
 </urlset>

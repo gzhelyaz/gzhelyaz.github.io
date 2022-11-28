@@ -28,6 +28,8 @@ img::selection { background: transparent; }
 
 img::-moz-selection { background: transparent; }
 
+.plyr { --plyr-color-main: #ffcc00; --plyr-audio-control-color: #fff; --plyr-audio-control-color-hover: $black !important; --plyr-audio-controls-background: $black; }
+
 .btn { font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; }
 
 .btn-xl { font-size: 18px; padding: 20px 40px; }

@@ -5,11 +5,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
 
+  <!-- <script src="https://cdn.plyr.io/3.7.3/plyr.polyfilled.js"></script> -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Recording | Mixing | Mastering">
   <meta name="author" content="Georgi Zhelyazkov">
-  <link rel="canonical" href="https://blackrockrecordings.comhttps://blackrockrecordings.com/404.html">
+  <link rel="canonical" href="https://blackrockrecordings.com//404.html">
 
   <title>
     Page Not Found | BLACKROCK RECORDINGS
@@ -28,6 +30,9 @@
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
   <link href="assets/css/agency.css" rel="stylesheet">
+
+  <!-- Plyr  -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.3/plyr.css">
 
   <!-- Page container change top padding when nav shrinks -->
   
@@ -50,16 +55,16 @@
       <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #212529">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="https://blackrockrecordings.com/#">BLACKROCK RECORDINGS</a>
+    <a class="navbar-brand js-scroll-trigger" href="//#">BLACKROCK RECORDINGS</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu<i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
-      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://blackrockrecordings.com/#portfolio">Portfolio</a></li>
-<li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://blackrockrecordings.com/#services">Services</a></li>
-<li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://blackrockrecordings.com/#about">About</a></li>
-<li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://blackrockrecordings.com/#contact">Contact</a></li>
+      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="//#portfolio">Portfolio</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="//#services">Services</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="//#about">About</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="//#contact">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -164,6 +169,13 @@ document.getElementById("page-top").className="bg-light";
 	  <script src="assets/js/agency.min.js"></script>
 
 	  <script src="https://kit.fontawesome.com/400f03ad58.js" crossorigin="anonymous"></script>
+
+	  <script src="https://cdn.plyr.io/3.7.3/plyr.polyfilled.js"></script>
+	  <!-- <script src="assets/js/plyr/src/js/plyr.js"></script> -->
+	  <script>
+        // const player = new Plyr('#player');
+		const players = Array.from(document.querySelectorAll('#player')).map((p) => new Plyr(p));
+      </script>
 
   </body>
 </html>
