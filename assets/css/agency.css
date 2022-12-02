@@ -28,9 +28,11 @@ img::selection { background: transparent; }
 
 img::-moz-selection { background: transparent; }
 
-.plyr { --plyr-color-main: #ff4057; --plyr-audio-control-color: #fff; --plyr-audio-control-color-hover: $black !important; --plyr-audio-controls-background: $black; }
+.plyr { --plyr-color-main: #ffffff; --plyr-audio-control-color: #fff; --plyr-audio-control-color-hover: $black !important; --plyr-audio-controls-background: $black; }
 
 #about { background-color: #121212 !important; }
+
+.about-img { display: flex; justify-content: center !important; margin-bottom: 20px !important; }
 
 .btn { font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-weight: 700; }
 
