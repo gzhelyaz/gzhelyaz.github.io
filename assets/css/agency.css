@@ -32,7 +32,7 @@ img::-moz-selection { background: transparent; }
 
 .black-and-white:hover { filter: none; }
 
-.plyr { --plyr-color-main: #ffffff; --plyr-audio-control-color: #fff; --plyr-audio-control-color-hover: $black !important; --plyr-audio-controls-background: $black; }
+.plyr { --plyr-color-main: #ffffff; --plyr-audio-control-color: #fff; --plyr-audio-control-color-hover: $black !important; --plyr-audio-controls-background: #121212; }
 
 #about { background-color: #121212 !important; }
 
@@ -100,7 +100,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 
 #portfolio .portfolio-item .black-and-white:hover { filter: none; }
 
-#portfolio .portfolio-item .portfolio-caption { max-width: 400px; margin: 0 auto; padding: 25px; text-align: center; background-color: #000; }
+#portfolio .portfolio-item .portfolio-caption { max-width: 400px; margin: 0 auto; padding: 25px; text-align: center; background-color: #121212; }
 
 #portfolio .portfolio-item .portfolio-caption h4 { margin: 0; text-transform: none; }
 
