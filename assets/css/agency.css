@@ -109,8 +109,8 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #787874;
+  border-color: #787874;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #656561 !important;
